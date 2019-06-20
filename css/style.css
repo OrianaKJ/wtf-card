@@ -35,6 +35,10 @@ body {
     line-height: 22px;
 }
 
+.person__description:last-child {
+    margin-bottom: 0;
+}
+
 .person__header {
     margin-bottom: 32px;
 }
