@@ -71,3 +71,28 @@ body {
     color: #ed6d05;
     font-weight: normal;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        scroll-behavior: smooth;
+        display: block;
+    }
+    .person {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .person__name {
+        font-size: 1.5rem;
+    }
+    .personal__info {
+        padding-top: 0;
+    }
+    .person__photo {
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .person__header {
+        margin-top: 0;
+        text-align: center;
+    }
+}
