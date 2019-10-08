@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext');
 html {
     box-sizing: border-box;
 }
@@ -34,6 +35,8 @@ body {
 .person__description {
     font-size: 16px;
     line-height: 22px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.75rem;
 }
 
 .person__description:last-child {
